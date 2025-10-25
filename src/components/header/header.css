@@ -4,8 +4,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
-    padding: 2rem 0;
+    gap: 3rem;
+    padding: 3rem 2rem;
+}
+
+.header-svg {
+  width: clamp(2em, 3vw, 2.8em);
+  height: clamp(1.5em, 3vw, 2em); /* match width for consistency */
 }
 
 .header-titles {
@@ -16,10 +21,15 @@
 }
 
 .header-title {
-    font-size: clamp(30px, 5vw, 60px);
+  font-size: clamp(2.5rem, 5vw, 4rem); /* scaled proportionally to SVG */
 }
 
 .header-subtitle {
-    font-size: clamp(15px, 2vw, 25px);
-    color: var(--text-secondary);
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem); /* smaller, same ratio */
+  color: var(--text-secondary);
+}
+
+.header-links {
+    display: flex;
+    gap: 2em;
 }
