@@ -32,27 +32,26 @@ a {
 }
 
 .neumorphic {
+  padding: 1em;
   border-radius: 16px;
 
   box-shadow:
-    -4px -4px 8px rgba(255, 255, 255, 0.08),  /* lighter top-left */
+    -2px -2px 8px rgba(255, 255, 255, 0.08),  /* lighter top-left */
     4px 4px 8px rgba(0, 0, 0, 0.6);           /* darker bottom-right */
     transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .neumorphic-hover {
+  padding: 1em;
   border-radius: 16px;
 
   box-shadow:
-    -4px -4px 8px rgba(255, 255, 255, 0.08),  /* lighter top-left */
+    -2px -2px 8px rgba(255, 255, 255, 0.08),  /* lighter top-left */
     4px 4px 8px rgba(0, 0, 0, 0.6);           /* darker bottom-right */
     transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .neumorphic-hover:hover {
   transform: translateY(-4px);
-  box-shadow:
-    -6px -6px 12px rgba(255, 255, 255, 0.2),
-    6px 6px 12px rgba(0, 0, 0, 0.7);
-  background: #242a31; /* subtle brighten */
+  background: #353b41; /* subtle brighten */
 }
