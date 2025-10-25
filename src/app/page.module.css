@@ -3,11 +3,7 @@
   --foreground: ##ffffff;
 
   --text-primary: ##ffffff;
-  --text-secondary: #666;
-
-  --text-weight-bold: bolder;
-  --text-weight-regular: normal;
-  --text--weight--ligher: lighter;
+  --text-secondary: #E0E0E0;
 
   display: flex;
   align-items: center;

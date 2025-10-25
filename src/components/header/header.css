@@ -4,5 +4,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.5rem;
     padding: 2rem 0;
+}
+
+.header-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header-title {
+    font-size: clamp(30px, 5vw, 60px);
+}
+
+.header-subtitle {
+    font-size: clamp(15px, 2vw, 25px);
+    color: var(--text-secondary);
 }
