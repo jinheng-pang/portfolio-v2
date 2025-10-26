@@ -1,10 +1,10 @@
 import "./header.css";
-import LinkItem from "../link/LinkItem";
+import LinkItem from "../../../components/link/LinkItem";
 import SvgMailIcon from "@/svgs/MailIcon";
 import SvgGithubIcon from "@/svgs/GithubIcon";
 import SvgLinkedinIcon from "@/svgs/LinkedinIcon";
-import ModalTrigger from "../modal/ModalTrigger";
-import ContactMe from "../modalChildren/ContactMe";
+import ModalTrigger from "../../../components/modal/ModalTrigger";
+import ContactMe from "../../../components/modalChildren/ContactMe";
 
 const Header = () => {
   return (
