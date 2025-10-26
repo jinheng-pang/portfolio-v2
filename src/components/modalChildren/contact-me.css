@@ -1,0 +1,15 @@
+.contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-me-svg {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.contact-me:hover {
+  color: var(--text-secondary);
+}
