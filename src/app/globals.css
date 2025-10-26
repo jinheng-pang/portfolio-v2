@@ -31,6 +31,12 @@ a {
   text-decoration: none;
 }
 
+button {
+  all: unset; /* removes all default styles */
+  cursor: pointer; /* restores pointer behavior */
+}
+
+
 .neumorphic {
   padding: 1em;
   border-radius: 16px;
