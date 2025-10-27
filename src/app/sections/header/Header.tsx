@@ -8,7 +8,7 @@ import ContactMe from "../../../components/modalChildren/ContactMe";
 
 const Header = () => {
   return (
-    <header className="header neumorphic">
+    <header className="header-container neumorphic">
       <div className="header-headings">
         <h1 className="header-heading">Jin Heng Pang</h1>
         <p className="header-subheading">Software Engineer</p>
