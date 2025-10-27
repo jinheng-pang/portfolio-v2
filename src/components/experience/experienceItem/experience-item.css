@@ -9,11 +9,7 @@
 }
 
 .experience-item-date {
-    min-width: 0px;
-    overflow-wrap: break-word;
-    padding-bottom: 1rem;
-    text-align: end;
-    flex: 0 0 6rem;
+    font-size: clamp(0.8rem, 2vw, 1.2rem);
 }
 
 .timeline-marker {
