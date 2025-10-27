@@ -5,7 +5,7 @@ import "./experience.css";
 
 const Experience = () => {
   return (
-    <div className="experience">
+    <div className="experience page-section">
       <h2 className="page-subheading neumorphic">Experience</h2>
       <ul className="content">
         {experiences.map((experience, index) => {
