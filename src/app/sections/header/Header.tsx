@@ -8,12 +8,12 @@ import ContactMe from "../../../components/modalChildren/ContactMe";
 
 const Header = () => {
   return (
-    <header className="header-container neumorphic">
-      <div className="header-headings">
-        <h1 className="header-heading">Jin Heng Pang</h1>
-        <p className="header-subheading">Software Engineer</p>
+    <header className="header neumorphic">
+      <div className="headings">
+        <h1 className="heading">Jin Heng Pang</h1>
+        <p className="subheading">Software Engineer</p>
       </div>
-      <ul className="header-links">
+      <ul className="links">
         <ModalTrigger Icon={SvgMailIcon} label="Contact Me">
           <ContactMe />
         </ModalTrigger>
