@@ -1,0 +1,29 @@
+.experience-card-container {
+  max-width: 80%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Role / Title */
+.experience-card-heading {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-weight: 600;
+  line-height: 1.2;
+  max-width: 100%; /* do not exceed container width */
+}
+
+/* Company */
+.experience-card-subheading {
+  font-size: clamp(0.9rem, 1.6vw, 1.1rem);
+  font-weight: 500;
+  color: var(--text-secondary);
+  max-width: 100%;
+}
+
+/* Description */
+.experience-card-description {
+  font-size: clamp(0.85rem, 1.5vw, 1rem);
+  line-height: 1.4;
+}
