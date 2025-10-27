@@ -5,9 +5,9 @@ import "./experience.css";
 
 const Experience = () => {
   return (
-    <div className="experience-container">
+    <div className="experience">
       <h2 className="page-subheading neumorphic">Experience</h2>
-      <ul className="experience-content">
+      <ul className="content">
         {experiences.map((experience, index) => {
           const date = `${experience.startDate} - ${experience.endDate}`;
           return (
