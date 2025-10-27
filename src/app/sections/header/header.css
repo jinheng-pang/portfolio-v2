@@ -8,11 +8,6 @@
   padding: 3rem 2rem;
 }
 
-.header-svg {
-  width: clamp(1.8em, 2.5vw, 2.5em);
-  height: clamp(1.3em, 2.5vw, 1.8em); 
-}
-
 .header .headings {
   display: flex;
   flex-direction: column;
@@ -21,15 +16,20 @@
 }
 
 .header .heading {
-  font-size: clamp(2rem, 4.5vw, 3.5rem); 
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
 }
 
 .header .subheading {
-  font-size: clamp(1.1rem, 2vw, 1.5rem); 
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
   color: var(--text-secondary);
 }
 
 .header .links {
   display: flex;
   gap: 2em;
+}
+
+.header .svg {
+  width: clamp(1.8em, 2.5vw, 2.5em);
+  height: clamp(1.3em, 2.5vw, 1.8em);
 }

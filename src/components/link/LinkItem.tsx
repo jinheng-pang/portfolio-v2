@@ -6,7 +6,7 @@ interface LinkItemProps {
   Icon: React.FC<React.SVGProps<SVGSVGElement>>;
 }
 
-const LinkItem: React.FC<LinkItemProps> = ({ href, label, Icon }) => {
+const LinkItem: React.FC<LinkItemProps> = ({ href, Icon, ...props }) => {
   return (
     <a
       href={href}

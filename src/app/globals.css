@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap");
 
 :root {
-  --background: #20252B;
-  --foreground: #FFFFFF;
+  --background: #20252b;
+  --foreground: #ffffff;
 }
-
 
 html,
 body {
@@ -15,7 +14,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
+  font-family: "Roboto Mono", monospace, Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -36,35 +35,31 @@ button {
   cursor: pointer; /* restores pointer behavior */
 }
 
-
 .neumorphic {
   padding: 0.5em 3em;
   border-radius: 16px;
 
-  box-shadow:
-    -2px -2px 8px rgba(255, 255, 255, 0.08),  /* lighter top-left */
-    4px 4px 8px rgba(0, 0, 0, 0.6);           /* darker bottom-right */
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  box-shadow: -2px -2px 8px rgba(255, 255, 255, 0.08),
+    /* lighter top-left */ 4px 4px 8px rgba(0, 0, 0, 0.6); /* darker bottom-right */
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .neumorphic-hover {
   padding: 1em;
   border-radius: 16px;
 
-  box-shadow:
-    -2px -2px 8px rgba(255, 255, 255, 0.08),  /* lighter top-left */
-    4px 4px 8px rgba(0, 0, 0, 0.6);           /* darker bottom-right */
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  box-shadow: -2px -2px 8px rgba(255, 255, 255, 0.08),
+    /* lighter top-left */ 4px 4px 8px rgba(0, 0, 0, 0.6); /* darker bottom-right */
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .neumorphic-hover:hover {
   transform: translateY(-4px);
-  box-shadow:
-    6px 6px 12px rgba(0, 0, 0, 0.7);
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.7);
   background: #353b41; /* subtle brighten */
 }
 
-.page-heading {
+.page-subheading {
   font-size: clamp(1.2rem, 2.2vw, 1.8rem);
   font-weight: normal;
 }

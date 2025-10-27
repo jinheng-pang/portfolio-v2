@@ -9,7 +9,7 @@ interface ModalTriggerProps {
   children: React.ReactNode;
 }
 
-const ModalTrigger = ({ Icon, label, children }: ModalTriggerProps) => {
+const ModalTrigger = ({ Icon, children, ...props }: ModalTriggerProps) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>

@@ -4,7 +4,7 @@ import SvgMailIcon from "@/svgs/MailIcon";
 import SvgGithubIcon from "@/svgs/GithubIcon";
 import SvgLinkedinIcon from "@/svgs/LinkedinIcon";
 import ModalTrigger from "../../../components/modal/ModalTrigger";
-import ContactMe from "../../../components/modalChildren/ContactMe";
+import ContactMe from "../../../components/modal/modalChildren/ContactMe";
 
 const Header = () => {
   return (
