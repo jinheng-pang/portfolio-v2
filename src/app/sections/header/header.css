@@ -9,8 +9,8 @@
 }
 
 .header-svg {
-  width: clamp(2em, 3vw, 2.8em);
-  height: clamp(1.5em, 3vw, 2em); /* match width for consistency */
+  width: clamp(1.8em, 2.5vw, 2.5em);
+  height: clamp(1.3em, 2.5vw, 1.8em); /* match width proportionally */
 }
 
 .header-headings {
@@ -21,11 +21,11 @@
 }
 
 .header-heading {
-  font-size: clamp(2.5rem, 5vw, 4rem); /* scaled proportionally to SVG */
+  font-size: clamp(2rem, 4.5vw, 3.5rem); /* slightly smaller */
 }
 
 .header-subheading {
-  font-size: clamp(1.25rem, 2.5vw, 1.75rem); /* smaller, same ratio */
+  font-size: clamp(1.1rem, 2vw, 1.5rem); /* scaled down proportionally */
   color: var(--text-secondary);
 }
 
