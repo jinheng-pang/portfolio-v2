@@ -11,21 +11,20 @@ export interface ExperienceProps {
 export const experiences: ExperienceProps[] = [
     {
         id: "1",
-        startDate: "Jun 2025",
-        endDate: "Nov 2025",
-        roleTitle: "IT Service Desk Analyst",
-        company: "Medhealth",
-        description: "Nice",
-        fact: "First ever internship that is part of the Monash 5 month IBL program."
-    },
-    {
-        id: "2",
         startDate: "Jul 2025",
         endDate: "Present",
         roleTitle: "IT Director",
         company: "Monash Japanese Club",
-        description: "Nice",
+        description: "First ever internship that is part of the Monash 5 month IBL program.",
         fact: "Led a team of students in building a Japanese Learning full-stack application"
+    },
+    {
+        id: "2",
+        startDate: "Jun 2025",
+        endDate: "Nov 2025",
+        roleTitle: "IT Service Desk Analyst",
+        company: "Medhealth",
+        description: "First ever internship that is part of the Monash 5 month IBL program.",
+        fact: "First ever internship that is part of the Monash 5 month IBL program."
     }
-
 ]
