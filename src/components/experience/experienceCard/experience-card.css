@@ -1,29 +1,30 @@
-.experience-card-container {
+.experience-card {
   max-width: 65%;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 /* Role / Title */
-.experience-card-heading {
-  font-size: clamp(1rem, 2vw, 1.3rem);
+.experience-card .heading {
+  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
   font-weight: 600;
   line-height: 1.2;
   max-width: 100%; /* do not exceed container width */
 }
 
 /* Company */
-.experience-card-subheading {
+.experience-card .subheading {
   font-size: clamp(0.9rem, 1.6vw, 1.1rem);
-  font-weight: 500;
+  font-weight: 200;
   color: var(--text-secondary);
   max-width: 100%;
 }
 
 /* Description */
-.experience-card-description {
+.experience-card .description {
   font-size: clamp(0.85rem, 1.5vw, 1rem);
+  
   line-height: 1.4;
 }

@@ -17,12 +17,12 @@ const ExperienceCard = (experience: ExperienceProps) => {
 
   return (
     <div
-      className="experience-card-container neumorphic-hover"
+      className="experience-card neumorphic-hover"
       onClick={() => setIsFlip(!isFlip)}
     >
-      <h3 className="experience-card-heading">{roleTitle}</h3>
-      <p className="experience-card-subheading">{company}</p>
-      <p className="experience-card-description">{description}</p>
+      <h3 className="heading">{roleTitle}</h3>
+      <p className="subheading">{company}</p>
+      <p className="description">{description}</p>
     </div>
   );
 };

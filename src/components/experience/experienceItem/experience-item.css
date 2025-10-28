@@ -1,21 +1,15 @@
-.experience-item-container{
+.experience-item{
     display: flex;
     justify-content: center;
     gap: 2rem;
 }
 
-.experience-item-container:last-child .timeline-tail{
+.experience-item:last-child .timeline-tail{
     background: none;
 }
 
-.experience-item-date {
+.experience-item .date {
     font-size: clamp(0.8rem, 2vw, 1.2rem);
-}
-
-.timeline-marker {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .timeline-tail{
