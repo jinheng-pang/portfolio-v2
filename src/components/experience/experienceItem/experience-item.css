@@ -9,7 +9,12 @@
 }
 
 .experience-item .date {
-    font-size: clamp(0.8rem, 2vw, 1.2rem);
+    font-size: 0.9rem;
+    flex: 0 0 6rem;
+    min-width: 0;
+    overflow-wrap: break-word;
+    padding-bottom: 1rem;
+    text-align: end;
 }
 
 .timeline-tail{
