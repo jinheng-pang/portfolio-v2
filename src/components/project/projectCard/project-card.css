@@ -1,4 +1,5 @@
 .project-card {
+  width: 100%;
   max-width: 65%;
   display: grid;
   grid-template-columns: 1fr auto; /* left text, right image */
@@ -28,7 +29,7 @@
 
 /* title */
 .title {
-  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  font-size: clamp(1.3rem, 2.2vw, 1.6rem);
   font-weight: 600;
 }
 
@@ -54,8 +55,32 @@
 
 /* image on the right */
 .image {
+  width: 100%;
+  max-width: 14rem;
   width: clamp(8rem, 25vw, 14rem);
   height: auto;
   object-fit: cover;
   border-radius: 0.75rem;
+}
+
+@media (max-width: 700px) {
+  .project-card {
+    grid-template-columns: 1fr; /* stack vertically */
+    gap: 1.5rem;
+    max-width: 100%;
+  }
+
+  .project-card .description {
+    display: none; /* remove description */
+  }
+
+  .project-card .image {
+    width: 100%;
+    max-width: 16rem; /* keep it reasonable */
+    margin-inline: auto; /* center image */
+  }
+
+  .project-card .tech-stack {
+    justify-content: start;
+  }
 }
