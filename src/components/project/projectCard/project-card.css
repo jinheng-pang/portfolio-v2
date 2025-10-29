@@ -60,22 +60,36 @@
 
 @media (max-width: 700px) {
   .project-card {
-    grid-template-columns: 1fr; /* stack vertically */
+    grid-template-columns: 1fr;  /* stack vertically */
     gap: 1.5rem;
     max-width: 100%;
+    align-items: center;         /* center content horizontally */
+    position: relative;          /* keep absolute elements relative to card */
   }
 
-  .project-card .description {
-    display: none; /* remove description */
+  .description {
+    display: none;
+  }
+
+  .left-container {
+    width: 100%;                 /* make text container full width */
+    align-items: center;         /* center text/content */
+    text-align: center;          /* optional: center headings */
   }
 
   .project-card .image {
     width: 100%;
-    max-width: 16rem; /* keep it reasonable */
-    margin-inline: auto; /* center image */
+    max-width: 16rem;
+    margin: 0 auto;              /* center the image */
+  }
+
+  .external-link {
+    top: 0.5rem;                 /* adjust for smaller card width */
+    right: 0.5rem;
   }
 
   .project-card .tech-stack {
-    justify-content: start;
+    justify-content: center;     /* center tech icons in mobile */
   }
 }
+
