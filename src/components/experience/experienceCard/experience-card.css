@@ -25,6 +25,6 @@
 /* Description */
 .experience-card .description {
   font-size: clamp(0.85rem, 1.5vw, 1rem);
-  
+
   line-height: 1.4;
 }

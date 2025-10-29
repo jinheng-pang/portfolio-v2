@@ -1,5 +1,4 @@
 import React from "react";
-import "./SvgLink.css";
 
 interface SvgLinkProps {
   href: string;
