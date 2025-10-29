@@ -1,5 +1,7 @@
 # Personal Portfolio Website
 
+**Start Date:** 25 October 2025 | **Status:** Ongoing
+
 A minimalist portfolio website built to showcase my projects and improve my frontend fundamentals.
 
 ## 🚀 Motivation
@@ -21,4 +23,3 @@ npm install
 
 # Run the development server
 npm run dev
-
