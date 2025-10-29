@@ -20,13 +20,13 @@ const ProjectCard = ({
         className="external-link"
       />
       <div className="left-container">
-          <h3 className="title">{title}</h3>
-          <p className="description">{description}</p>
-          <ul className="tech-stack">
-            {techStack.map((Stack, index) => (
-              <Stack className="tech-icon" key={index} />
-            ))}
-          </ul>
+        <h3 className="title">{title}</h3>
+        <p className="description">{description}</p>
+        <ul className="tech-stack">
+          {techStack.map((Stack, index) => (
+            <Stack className="tech-icon" key={index} />
+          ))}
+        </ul>
       </div>
       <img className="image" src={imagePath} alt={imageAlt}></img>
     </div>
