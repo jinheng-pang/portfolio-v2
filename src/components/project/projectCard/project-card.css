@@ -6,7 +6,7 @@
   align-items: start;
   position: relative;
   gap: 2rem;
-  padding: 2.5rem;
+  padding: 2.5rem 2rem 1.5rem 2cqb;
 }
 
 /* external link in top-right corner */
@@ -24,7 +24,7 @@
 .left-container {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.2rem;
 }
 
 /* title */
@@ -41,16 +41,11 @@
   overflow-wrap: break-word;
 }
 
-/* tech stack icons */
+/* tech stack */
 .tech-stack {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
-}
-
-.tech-icon {
-  width: clamp(1.4rem, 2.8vw, 2.4rem);
-  height: clamp(1.4rem, 2.8vw, 2.4rem);
 }
 
 /* image on the right */
