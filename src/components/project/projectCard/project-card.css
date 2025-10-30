@@ -49,22 +49,25 @@
 }
 
 /* image on the right */
-.image {
+.project-card .image {
   width: 100%;
+  height: 100%;
   max-width: 14rem;
   width: clamp(8rem, 25vw, 14rem);
   height: auto;
   object-fit: cover;
   border-radius: 0.75rem;
+  outline: 2px solid rgba(255, 255, 255, 0.25);
+  outline-offset: -4px;
 }
 
 @media (max-width: 700px) {
   .project-card {
-    grid-template-columns: 1fr;  /* stack vertically */
+    grid-template-columns: 1fr; /* stack vertically */
     gap: 1.5rem;
     max-width: 100%;
-    align-items: center;         /* center content horizontally */
-    position: relative;          /* keep absolute elements relative to card */
+    align-items: center; /* center content horizontally */
+    position: relative; /* keep absolute elements relative to card */
   }
 
   .description {
@@ -72,24 +75,23 @@
   }
 
   .left-container {
-    width: 100%;                 /* make text container full width */
-    align-items: center;         /* center text/content */
-    text-align: center;          /* optional: center headings */
+    width: 100%; /* make text container full width */
+    align-items: center; /* center text/content */
+    text-align: center; /* optional: center headings */
   }
 
   .project-card .image {
     width: 100%;
     max-width: 16rem;
-    margin: 0 auto;              /* center the image */
+    margin: 0 auto; /* center the image */
   }
 
   .external-link {
-    top: 0.5rem;                 /* adjust for smaller card width */
+    top: 0.5rem; /* adjust for smaller card width */
     right: 0.5rem;
   }
 
   .project-card .tech-stack {
-    justify-content: center;     /* center tech icons in mobile */
+    justify-content: center; /* center tech icons in mobile */
   }
 }
-
