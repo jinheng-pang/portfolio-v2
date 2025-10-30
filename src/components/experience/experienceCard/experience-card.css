@@ -1,5 +1,6 @@
 .experience-card {
-  max-width: 65%;
+  width: 100%;
+  max-width: 55%;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
