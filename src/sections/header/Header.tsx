@@ -14,15 +14,17 @@ const Header = () => {
         <p className="subheading">Software Engineer</p>
       </div>
       <ul className="links">
-        <ModalTrigger Icon={SvgMailIcon} label="Contact Me">
+        <ModalTrigger className="link neumorphic-hover" Icon={SvgMailIcon} label="Contact Me">
           <ContactMe />
         </ModalTrigger>
         <LinkItem
+          className="link neumorphic-hover"
           href="https://github.com/jinheng-pang"
           Icon={SvgGithubIcon}
           label="Github"
         />
         <LinkItem
+          className="link neumorphic-hover"
           href="https://www.linkedin.com/in/jin-heng-pang/"
           Icon={SvgLinkedinIcon}
           label="LinkedIn"

@@ -4,13 +4,14 @@ interface LinkItemProps {
   href: string;
   label: string;
   Icon: React.FC<React.SVGProps<SVGSVGElement>>;
+  className: string;
 }
 
-const LinkItem: React.FC<LinkItemProps> = ({ href, Icon, ...props }) => {
+const LinkItem: React.FC<LinkItemProps> = ({ href, Icon, className, ...props }) => {
   return (
     <a
       href={href}
-      className="header-link neumorphic-hover"
+      className={className}
       target="_blank"
       rel="noopener noreferrer"
     >

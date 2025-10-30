@@ -29,7 +29,14 @@
   gap: 2em;
 }
 
+.header .link {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header-svg {
   width: clamp(1.9em, 2.6vw, 2.6em);
-  height: clamp(1.4em, 2.6vw, 1.9em);
+  height: clamp(1.5em, 2.7vw, 2em);
 }

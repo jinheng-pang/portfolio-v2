@@ -7,14 +7,15 @@ interface ModalTriggerProps {
   Icon: React.FC<SVGProps<SVGSVGElement>>;
   label: string;
   children: React.ReactNode;
+  className: string;
 }
 
-const ModalTrigger = ({ Icon, children, ...props }: ModalTriggerProps) => {
+const ModalTrigger = ({ Icon, children, className, ...props }: ModalTriggerProps) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <button
-        className="modal-trigger header-link neumorphic-hover"
+        className={className}
         onClick={() => setIsOpen(true)}
       >
         <Icon />
