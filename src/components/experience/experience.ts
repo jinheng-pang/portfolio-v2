@@ -15,7 +15,7 @@ export const experiences: ExperienceProps[] = [
         endDate: "Present",
         roleTitle: "IT Director",
         company: "Monash Japanese Club",
-        description: "First ever internship that is part of the Monash 5 month IBL program.",
+        description: "Leading an initiative in building a Japanese Learning web app to enhance our member's experience.",
         fact: "Led a team of students in building a Japanese Learning full-stack application"
     },
     {
