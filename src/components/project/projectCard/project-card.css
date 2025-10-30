@@ -70,7 +70,7 @@
     position: relative; /* keep absolute elements relative to card */
   }
 
-  .description {
+  .project-card .description {
     display: none;
   }
 
