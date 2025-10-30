@@ -5,10 +5,10 @@ import {
   SvgJavascript,
   SvgTypescript,
 } from "@/svgs/coding-languages";
-import { SvgReact, SvgNodejs } from "@/svgs/frameworks";
+import { SvgReact, SvgNodejs, SvgRxjs } from "@/svgs/frameworks";
 import SvgLink from "../link/SvgLink/SvgLink";
 
-import './tech-stack.css'
+import "./tech-stack.css";
 
 export const CssIcon = (
   <SvgLink
@@ -63,6 +63,14 @@ export const NodeIcon = (
     Icon={SvgNodejs}
     href="https://nodejs.org/"
     title="Node.js"
+    className="tech-icon"
+  />
+);
+export const RxjsIcon = (
+  <SvgLink
+    Icon={SvgRxjs}
+    href="https://rxjs.dev/"
+    title="RxJS"
     className="tech-icon"
   />
 );

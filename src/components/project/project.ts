@@ -6,6 +6,7 @@ import {
   TypescriptIcon,
   ReactIcon,
   NodeIcon,
+  RxjsIcon,
 } from "../techStack/techStack";
 
 export interface ProjectProps {
@@ -25,16 +26,16 @@ export const projects: ProjectProps[] = [
     description:
       "Developed a personal portfolio website using React and TypeScript.",
     techStack: [ReactIcon, TypescriptIcon, CssIcon],
-    imagePath: '/images/portfolio.png',
+    imagePath: 'images/portfolio.png',
     imageAlt: "portfolio website",
     projectLink: "https://github.com/jinheng-pang/portfolio-v2"
   },
   {
-    title: "Student Management API",
+    title: "Guitar Heroes Game",
     description:
-      "Built a RESTful API for managing student records using Java and Spring Boot.",
-    techStack: [JavaIcon, PythonIcon, JavascriptIcon],
-    imagePath: '/images/guitar-heroes.png',
+      "Built a game in Full Functional Paradigm using typescipt, observables, and Rxjs library.",
+    techStack: [TypescriptIcon, RxjsIcon, CssIcon],
+    imagePath: 'images/guitar-heroes.png',
     imageAlt: "guitar heroes game",
     projectLink: "https://github.com/jinheng-pang/guitar-heroes"
   },
