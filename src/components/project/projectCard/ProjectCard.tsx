@@ -4,6 +4,7 @@ import React from "react";
 import type { ProjectProps } from "../project";
 import SvgLink from "@/components/link/SvgLink/SvgLink";
 import SvgExternalLinkIcon from "@/svgs/ExternalLinkIcon";
+import Image from "next/image";
 
 const ProjectCard = ({
   title,
@@ -29,7 +30,7 @@ const ProjectCard = ({
           ))}
         </div>
       </div>
-      <img className="image" src={imagePath} alt={imageAlt}></img>
+      <Image className="image" src={imagePath} alt={imageAlt} width={500} height={400} />
     </div>
   );
 };

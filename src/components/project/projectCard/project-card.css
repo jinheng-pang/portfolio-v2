@@ -6,7 +6,7 @@
   align-items: start;
   position: relative;
   gap: 2rem;
-  padding: 2.5rem 2rem 1.5rem 2cqb;
+  padding: 2.5rem 2rem 1.5rem 2rem;
 }
 
 /* external link in top-right corner */
@@ -54,7 +54,7 @@
   height: 100%;
   max-width: 14rem;
   width: clamp(8rem, 25vw, 14rem);
-  height: auto;
+  height: 12rem;
   object-fit: cover;
   border-radius: 0.75rem;
   outline: 2px solid rgba(255, 255, 255, 0.25);
