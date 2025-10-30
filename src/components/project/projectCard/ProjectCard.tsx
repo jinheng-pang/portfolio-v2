@@ -11,11 +11,12 @@ const ProjectCard = ({
   techStack,
   imagePath,
   imageAlt,
+  projectLink,
 }: ProjectProps) => {
   return (
     <div className="project-card neumorphic">
       <SvgLink
-        href="lol"
+        href={projectLink}
         Icon={SvgExternalLinkIcon}
         className="external-link"
       />

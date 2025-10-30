@@ -14,6 +14,7 @@ export interface ProjectProps {
   techStack: React.ReactNode[];
   imagePath: string;
   imageAlt: string;
+  projectLink: string;
 }
 
 const placeholderImgPath = "/images/placeholder-img.png";
@@ -24,15 +25,17 @@ export const projects: ProjectProps[] = [
     description:
       "Developed a personal portfolio website using React and TypeScript.",
     techStack: [ReactIcon, TypescriptIcon, CssIcon],
-    imagePath: placeholderImgPath,
-    imageAlt: "",
+    imagePath: '/images/portfolio.png',
+    imageAlt: "portfolio website",
+    projectLink: "https://github.com/jinheng-pang/portfolio-v2"
   },
   {
     title: "Student Management API",
     description:
       "Built a RESTful API for managing student records using Java and Spring Boot.",
     techStack: [JavaIcon, PythonIcon, JavascriptIcon],
-    imagePath: placeholderImgPath,
-    imageAlt: "",
+    imagePath: '/images/guitar-heroes.png',
+    imageAlt: "guitar heroes game",
+    projectLink: "https://github.com/jinheng-pang/guitar-heroes"
   },
 ];
