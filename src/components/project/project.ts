@@ -26,7 +26,7 @@ export const projects: ProjectProps[] = [
   {
     title: "Portfolio Website",
     description:
-      "Developed a personal portfolio website using React and TypeScript.",
+      "Portfolio site built with React + TypeScript.",
     techStack: [ReactIcon, TypescriptIcon, CssIcon],
     imagePath: "/images/portfolio.png",   
     imageAlt: "Portfolio website",
@@ -35,7 +35,7 @@ export const projects: ProjectProps[] = [
   {
     title: "Guitar Heroes Game",
     description:
-      "Built a game in full functional paradigm using TypeScript, observables, and the RxJS library.",
+      "Functional game implemented in TypeScript using RxJS observables.",
     techStack: [TypescriptIcon, RxjsIcon, CssIcon],
     imagePath: '/images/guitar-heroes.png', 
     imageAlt: "Guitar Heroes game",
