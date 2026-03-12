@@ -11,6 +11,15 @@ export interface ExperienceProps {
 export const experiences: ExperienceProps[] = [
     {
         id: "1",
+        startDate: "Feb 2026",
+        endDate: "Present",
+        roleTitle: "Software Engineer",
+        company: "Medhealth",
+        description: "Develop and maintain Medebridge, an internal platform used to manage patient cases, clinician workflows, and coordination between healthcare providers, employers, and insurers. Contribute to improving system functionality and reliability to support efficient healthcare service delivery.",
+        fact: "First ever Software Engineering experience."
+    },
+    {
+        id: "2",
         startDate: "Jul 2025",
         endDate: "Present",
         roleTitle: "IT Director",
@@ -19,7 +28,7 @@ export const experiences: ExperienceProps[] = [
         fact: "Led a team of students in building a Japanese Learning full-stack application"
     },
     {
-        id: "2",
+        id: "3",
         startDate: "Jun 2025",
         endDate: "Nov 2025",
         roleTitle: "IT Service Desk Analyst",
